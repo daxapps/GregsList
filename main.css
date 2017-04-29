@@ -1,0 +1,121 @@
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 10px;
+}
+
+nav {
+  height: 50px;
+  background-color: #EEEEEE;
+  position: fixed;
+  width: 100%;
+  font-size: 18px;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 10px;
+  top: 0;
+}
+
+nav p {
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+p:hover, li:hover {
+    text-decoration: underline;
+}
+
+main {
+  font-size: 16px;
+}
+section {
+  margin: 2em 0;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+main {
+  margin: 0 10%;
+  padding-top: 60px;
+}
+
+input {
+  width: 400px;
+  height: 1.5em;
+  padding-left: 5px;
+  border: 1px solid #DDDDDD;
+  vertical-align: bottom;
+  border-radius: 3px;
+}
+
+button {
+  background-color: white;
+  border-width: 1px;
+  height: 28px;
+  width: 37px;
+  padding: 3px 3px;
+  border-radius: 3px;
+}
+
+img {
+  height: 1.25em;
+}
+
+.results-nav p {
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  border: 1px black solid;
+  border-radius: 3px;
+}
+
+.nav-buttons {
+  height: 32px;
+  width: 100px;
+  margin: -5px;
+}
+
+.count {
+  height: 32px;
+  width: 175px;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.description {
+  font: bold;
+  color: #551A92;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
